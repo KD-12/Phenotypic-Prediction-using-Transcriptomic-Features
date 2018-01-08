@@ -3,7 +3,7 @@ Phenotypic Prediction from Transcriptomic Features
 
 Our project aims to predict the population and sequence center to which a sample belongs from the output of Salmon.
 
-How to run: python prediction.py <address to the model dump> <address to the test samples root> <address to the created csv files> <address to the test labels file> <type of slash to use in paths> <flag to indicate whether to use equivalence classes> <address to the csv file created using equivalence classes>
+How to run: python prediction.py  <address to the model dump> <address to the test samples root> <address to the created csv files> <address to the test labels file> <type of slash to use in paths> <flag to indicate whether to use equivalence classes> <address to the csv file created using equivalence classes>
 
 : Directory where the model dump will be saved. It is required that the directory contain 3 files named, 'population_model.sav', 
   'sc_model.sav', 'population_sc_model.sav'.
